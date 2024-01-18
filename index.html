@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise 4</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+        }
+        :root{
+            --color:black;
+            --backcol:rgb(176, 225, 240);
+            --pad:5px;
+            --col:rgb(67, 230, 211);
+        }
+        ul li{
+            color: var(--color);
+            list-style-type: none;
+            display: inline ;
+            padding: var(--pad);
+            
+        }
+        li:hover{
+            background-color: var(--backcol);
+            cursor: pointer;
+        }
+        
+    </style>
+</head>
+<body>
+    <!-- create a multi color navbar using CSS variables -->
+    <div class="navbar">
+        <ul>
+            <li>Home</li>
+            <li>About</li>
+            <li>Services</li>
+            <li>Contact</li>
+        </ul>
+    </div>
+</body>
+</html>
